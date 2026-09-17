@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ยืนยันสั่งซื้อ — FreshSqueeze</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">FreshSqueeze</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้าทั้งหมด</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="เปิดเมนู">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+
+      <div class="page-header">
+        <h1 class="section-title">ยืนยันการสั่งซื้อ</h1>
+        <p class="section-subtitle">กรอกข้อมูลให้ครบ แล้วเราจะติดต่อกลับไปยืนยันออเดอร์</p>
+      </div>
+
+      <form id="orderForm" class="form-card">
+
+        <div class="form-group">
+          <label for="customerName">ชื่อลูกค้า</label>
+          <input class="form-control" type="text" id="customerName" name="customerName" placeholder="ชื่อ-นามสกุล" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact">เบอร์โทร / Line</label>
+          <input class="form-control" type="text" id="contact" name="contact" placeholder="เบอร์โทรศัพท์ หรือ Line ID" required>
+        </div>
+
+        <div class="form-group">
+          <label for="items">รายการสินค้า</label>
+          <input class="form-control" type="text" id="items" name="items" placeholder="รายการสินค้าที่เลือก" required>
+        </div>
+
+        <div class="form-group">
+          <label for="total">จำนวนเงินรวม (บาท)</label>
+          <input class="form-control" type="text" id="total" name="total" placeholder="0" required>
+        </div>
+
+        <div class="form-group">
+          <label for="note">หมายเหตุ <span class="field-hint">(ถ้ามี)</span></label>
+          <textarea class="form-control" id="note" name="note" placeholder="ที่อยู่จัดส่ง เวลาที่สะดวก หรือข้อความเพิ่มเติม"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-submit">ยืนยันสั่งซื้อ</button>
+
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-col">
+        <h4>FreshSqueeze</h4>
+        <p>น้ำผลไม้สดคั้นแท้ เพื่อวันที่ดีกว่าของคุณ</p>
+      </div>
+      <div class="footer-col">
+        <h4>เมนู</h4>
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 FreshSqueeze. สงวนลิขสิทธิ์ทุกประการ
+    </div>
+  </div>
+</footer>
+
+<script>
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function () {
+    navLinks.classList.toggle('is-open');
+  });
+</script>
+<script src="script.js"></script>
+</body>
+</html>

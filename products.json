@@ -1,0 +1,102 @@
+[
+  {
+    "id": "refresh-250",
+    "name": "น้ำผลไม้ Refresh",
+    "mood": "refresh",
+    "type": "bottle",
+    "size": "250ml",
+    "price": 49,
+    "image": "images/refresh.jpg",
+    "description": "สดชื่นทันที ดับกระหายด้วยผลไม้สดคัดสรร"
+  },
+  {
+    "id": "refresh-500",
+    "name": "น้ำผลไม้ Refresh",
+    "mood": "refresh",
+    "type": "bottle",
+    "size": "500ml",
+    "price": 89,
+    "image": "images/refresh.jpg",
+    "description": "สดชื่นทันที ดับกระหายด้วยผลไม้สดคัดสรร ขนาดจุใจ"
+  },
+  {
+    "id": "detox-250",
+    "name": "น้ำผลไม้ Detox",
+    "mood": "detox",
+    "type": "bottle",
+    "size": "250ml",
+    "price": 49,
+    "image": "images/detox.jpg",
+    "description": "ล้างพิษเบาๆ ให้ร่างกายรู้สึกเบาสบายขึ้น"
+  },
+  {
+    "id": "detox-500",
+    "name": "น้ำผลไม้ Detox",
+    "mood": "detox",
+    "type": "bottle",
+    "size": "500ml",
+    "price": 89,
+    "image": "images/detox.jpg",
+    "description": "ล้างพิษเบาๆ ให้ร่างกายรู้สึกเบาสบายขึ้น ขนาดจุใจ"
+  },
+  {
+    "id": "glow-250",
+    "name": "น้ำผลไม้ Glow",
+    "mood": "glow",
+    "type": "bottle",
+    "size": "250ml",
+    "price": 49,
+    "image": "images/glow.jpg",
+    "description": "เติมความเปล่งปลั่งจากภายใน ผิวสวยใสแบบธรรมชาติ"
+  },
+  {
+    "id": "glow-500",
+    "name": "น้ำผลไม้ Glow",
+    "mood": "glow",
+    "type": "bottle",
+    "size": "500ml",
+    "price": 89,
+    "image": "images/glow.jpg",
+    "description": "เติมความเปล่งปลั่งจากภายใน ผิวสวยใสแบบธรรมชาติ ขนาดจุใจ"
+  },
+  {
+    "id": "energy-250",
+    "name": "น้ำผลไม้ Energy",
+    "mood": "energy",
+    "type": "bottle",
+    "size": "250ml",
+    "price": 49,
+    "image": "images/energy.jpg",
+    "description": "เติมพลังงานให้พร้อมลุยทั้งวัน"
+  },
+  {
+    "id": "energy-500",
+    "name": "น้ำผลไม้ Energy",
+    "mood": "energy",
+    "type": "bottle",
+    "size": "500ml",
+    "price": 89,
+    "image": "images/energy.jpg",
+    "description": "เติมพลังงานให้พร้อมลุยทั้งวัน ขนาดจุใจ"
+  },
+  {
+    "id": "smoothie-detox",
+    "name": "Smoothie Detox",
+    "mood": "detox",
+    "type": "smoothie",
+    "size": "",
+    "price": 79,
+    "image": "images/detox.jpg",
+    "description": "สมูทตี้เข้มข้น ล้างพิษเบาๆ อิ่มท้องกว่าเดิม"
+  },
+  {
+    "id": "smoothie-glow",
+    "name": "Smoothie Glow",
+    "mood": "glow",
+    "type": "smoothie",
+    "size": "",
+    "price": 79,
+    "image": "images/glow.jpg",
+    "description": "สมูทตี้ข้นครีมมี่ เติมความเปล่งปลั่งให้ผิวสวย"
+  }
+]
